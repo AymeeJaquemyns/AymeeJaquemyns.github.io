@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Aymée</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Curriculum Vitae</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">A propos</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="cv">
+        <h2>A propos de moi</h2>
+        <p>Développeur web et applications.</p>
+        <h2>Mes Projets</h2>
+        <div class="project">
+            <h3>Projet 1</h3>
+            <p>Description de mon projet.</p>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email : <address>aymee.jaquemyns@gmail.com</address> </p>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
